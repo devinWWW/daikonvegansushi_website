@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary-green: #2D5016;
+  --color-secondary-coral: #D33A05;
+  --color-secondary-coral-dark: #A02A00;
+  --color-accent-gold: #D4AF37;
+  --color-neutral-cream: #FEF7ED;
+  --color-dark-green: #1A3409;
+
+  --font-heading: "Playfair Display", serif;
+  --font-body: Inter, sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-neutral-cream);
+}
+
+/* Performance optimizations */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Optimize transitions to use GPU */
+.transition-all,
+.transition-opacity,
+.transition-transform {
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: -999;
+  color: #fff;
+  background-color: #2D5016;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  z-index: 1000;
+  transform: translateY(0);
+}
+
+/* Luxury Marquee Animations */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes shine {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 60s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+.animate-shine {
+  animation: shine 3s ease-in-out infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+/* Pause animation on hover for better UX */
+.luxury-marquee:hover .animate-scroll {
+  animation-play-state: paused;
+}
+
+/* ===========================================
+   WCAG 2.1 Level AA Focus Styles
+   =========================================== */
+
+/* Enhanced focus indicators for keyboard navigation */
+*:focus {
+  outline: 3px solid #D4AF37;
+  outline-offset: 2px;
+}
+
+/* Focus-visible for modern browsers (only shows on keyboard focus) */
+*:focus-visible {
+  outline: 3px solid #D4AF37;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.3);
+}
+
+/* Remove focus for mouse users */
+*:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Enhanced focus for buttons and links */
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid #D4AF37;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(212, 175, 55, 0.2);
+  transition: box-shadow 0.2s ease;
+}
+
+/* Focus for form inputs */
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid #D4AF37;
+  outline-offset: 2px;
+  border-color: #D4AF37;
+  box-shadow: 0 0 0 4px rgba(212, 175, 55, 0.15);
+}
+
+/* Focus for custom interactive elements */
+[role="button"]:focus-visible,
+[role="tab"]:focus-visible,
+[role="menuitem"]:focus-visible {
+  outline: 3px solid #D4AF37;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(212, 175, 55, 0.2);
+}
+
+/* Focus for cards and clickable areas */
+.focus\:ring:focus-visible {
+  outline: 3px solid #D4AF37;
+  outline-offset: 2px;
+}
+
+/* Ensure SVG icons inherit focus from parent */
+a:focus-visible svg,
+button:focus-visible svg {
+  filter: drop-shadow(0 0 4px rgba(212, 175, 55, 0.5));
+}
+
+/* Focus for navigation items */
+nav a:focus-visible,
+nav button:focus-visible {
+  outline: 3px solid #D4AF37;
+  outline-offset: 2px;
+  background-color: rgba(212, 175, 55, 0.1);
+}
+
+/* ===========================================
+   Reduced Motion for Accessibility
+   =========================================== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ===========================================
+   High Contrast Mode Support
+   =========================================== */
+@media (prefers-contrast: high) {
+  *:focus-visible {
+    outline: 4px solid currentColor;
+    outline-offset: 3px;
+  }
+}
