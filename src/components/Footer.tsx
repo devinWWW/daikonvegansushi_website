@@ -313,22 +313,22 @@ const Footer: React.FC = () => {
           <div className="border-t border-neutral-cream border-opacity-20 pt-8 pb-6">
             <div className="flex flex-wrap justify-center items-center gap-6 md:gap-10">
               <a href="https://www.peta.org/living/food/vegan-sushi-rolls/" target="_blank" rel="noopener noreferrer" aria-label="PETA" className="opacity-60 hover:opacity-100 transition-opacity">
-                <img src="/logos/peta-logo.svg" alt="PETA" className="h-6 md:h-8 w-auto brightness-0 invert" loading="lazy" />
+                <img src="/logos/peta-logo.svg" alt="PETA" className="h-6 md:h-8 w-auto " loading="lazy" />
               </a>
               <a href="https://www.restaurantji.com/nv/las-vegas/daikon-vegan-sushi-and-more-/" target="_blank" rel="noopener noreferrer" aria-label="Restaurantji" className="opacity-60 hover:opacity-100 transition-opacity">
-                <img src="/logos/daikon-best-2025.png" alt="Restaurantji Recommends" className="h-8 md:h-10 w-auto brightness-0 invert" loading="lazy" />
+                <img src="/logos/daikon-best-2025.png" alt="Restaurantji Recommends" className="h-8 md:h-10 w-auto " loading="lazy" />
               </a>
               <a href="https://www.yelp.com/biz/daikon-vegan-sushi-las-vegas" target="_blank" rel="noopener noreferrer" aria-label="Yelp" className="opacity-60 hover:opacity-100 transition-opacity">
-                <img src="/logos/yelp-logo.png" alt="Yelp" className="h-6 md:h-8 w-auto brightness-0 invert" loading="lazy" />
+                <img src="/logos/yelp-logo.png" alt="Yelp" className="h-6 md:h-8 w-auto " loading="lazy" />
               </a>
               <a href="https://www.google.com/maps/search/Daikon+Vegan+Sushi+7210+W+Lake+Mead+Blvd+Las+Vegas" target="_blank" rel="noopener noreferrer" aria-label="Google" className="opacity-60 hover:opacity-100 transition-opacity">
-                <img src="/logos/google-logo.png" alt="Google" className="h-6 md:h-8 w-auto brightness-0 invert" loading="lazy" />
+                <img src="/logos/google-logo.png" alt="Google" className="h-6 md:h-8 w-auto " loading="lazy" />
               </a>
               <a href="https://www.doordash.com/store/daikon-vegan-sushi-&-more-las-vegas-33987551/" target="_blank" rel="noopener noreferrer" aria-label="DoorDash" className="opacity-60 hover:opacity-100 transition-opacity">
-                <img src="/logos/doordash-logo.png" alt="DoorDash" className="h-5 md:h-6 w-auto brightness-0 invert" loading="lazy" />
+                <img src="/logos/doordash-logo.png" alt="DoorDash" className="h-5 md:h-6 w-auto " loading="lazy" />
               </a>
               <a href="https://www.ubereats.com/store/daikon-vegan-sushi-%26-more/a2Hn0W8uUfGnFzkZdi41ZA" target="_blank" rel="noopener noreferrer" aria-label="Uber Eats" className="opacity-60 hover:opacity-100 transition-opacity">
-                <img src="/logos/ubereat-logo.png" alt="Uber Eats" className="h-5 md:h-6 w-auto brightness-0 invert" loading="lazy" />
+                <img src="/logos/ubereat-logo.png" alt="Uber Eats" className="h-5 md:h-6 w-auto " loading="lazy" />
               </a>
             </div>
           </div>
