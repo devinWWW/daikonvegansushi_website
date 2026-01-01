@@ -181,7 +181,7 @@ const Locations: React.FC = () => {
                       rel="noopener noreferrer"
                       className="block w-full text-center bg-secondary-coral hover:bg-secondary-coral-dark text-white font-body font-semibold px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105"
                     >
-                      Make a Reservation
+                      Reservations Unavailable
                     </a>
                   )}
                 </div>
