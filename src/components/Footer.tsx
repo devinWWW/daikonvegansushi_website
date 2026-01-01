@@ -283,7 +283,7 @@ const Footer: React.FC = () => {
                 <div className="space-y-2 pt-2">
                   <h5 className="font-heading font-semibold text-white text-xs uppercase tracking-wide">Henderson Location</h5>
                   <a 
-                    href="https://basilvegansushi.com" 
+                    href="https://basilveganthai.com" 
                     target="_blank" 
                     rel="noopener noreferrer nofollow" 
                     className="block text-neutral-cream underline decoration-accent-gold decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold"
