@@ -172,7 +172,7 @@ const Locations: React.FC = () => {
                       title="Reservations temporarily unavailable"
                       className="block w-full text-center bg-secondary-coral text-white font-body font-semibold px-6 py-3 rounded-lg transition-all duration-300 opacity-60 cursor-not-allowed"
                     >
-                      Make a Reservation
+                      Reservations Unavailable
                     </button>
                   ) : (
                     <a
@@ -181,7 +181,7 @@ const Locations: React.FC = () => {
                       rel="noopener noreferrer"
                       className="block w-full text-center bg-secondary-coral hover:bg-secondary-coral-dark text-white font-body font-semibold px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105"
                     >
-                      Reservations Unavailable
+                      Make a Reservation
                     </a>
                   )}
                 </div>
