@@ -41,7 +41,7 @@ const ThanksgivingPromotion: React.FC = () => {
             Reserve at Basil
           </a>
           <a
-            href="https://rewards.vegansushilv.com/book/daikon"
+            href="https://tables.toasttab.com/restaurants/95c14348-a3ae-4de8-a7b2-15c5d41b0e11/findTime"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-primary-green hover:bg-opacity-90 text-white font-body font-semibold px-10 py-4 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg text-center"
@@ -181,7 +181,7 @@ const ThanksgivingPromotion: React.FC = () => {
               A Thanksgiving Gathering: Sushi & More
             </p>
             <a
-              href="https://rewards.vegansushilv.com/book/daikon"
+              href="https://tables.toasttab.com/restaurants/95c14348-a3ae-4de8-a7b2-15c5d41b0e11/findTime"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-primary-green hover:bg-opacity-90 text-white font-body font-semibold px-8 py-3 rounded-lg transition-all duration-300 shadow-md"
@@ -343,7 +343,7 @@ const ThanksgivingPromotion: React.FC = () => {
               Book at Basil Vegan Thai & Sushi
             </a>
             <a
-              href="https://rewards.vegansushilv.com/book/daikon"
+              href="https://tables.toasttab.com/restaurants/95c14348-a3ae-4de8-a7b2-15c5d41b0e11/findTime"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-primary-green hover:bg-opacity-90 text-white font-body font-semibold px-10 py-4 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg"

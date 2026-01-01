@@ -143,7 +143,7 @@ const HeroGallery: React.FC = () => {
               Order Online
             </a>
             <a
-              href="https://rewards.vegansushilv.com/book/daikon"
+              href="https://tables.toasttab.com/restaurants/95c14348-a3ae-4de8-a7b2-15c5d41b0e11/findTime"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-block bg-primary-green hover:bg-opacity-90 text-white font-body font-semibold px-6 md:px-8 py-3 md:py-4 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-sm md:text-base"

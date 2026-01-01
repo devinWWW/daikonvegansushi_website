@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
   const navLinks = [
     { name: 'About', path: '/about' },
     { name: 'Menu', path: 'https://order.toasttab.com/online/daikon-vegan-sushi-more', external: true },
-    { name: 'Reservation', path: 'https://rewards.vegansushilv.com/book/daikon', external: true },
+    { name: 'Reservation', path: 'https://tables.toasttab.com/restaurants/95c14348-a3ae-4de8-a7b2-15c5d41b0e11/findTime', external: true },
     { name: 'Gift Card', path: 'https://www.toasttab.com/daikon-vegan-sushi-more/giftcards', external: true },
     { name: 'Contact & FAQ', path: '#', hasDropdown: true },
   ];

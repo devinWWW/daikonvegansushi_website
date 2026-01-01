@@ -197,7 +197,7 @@ const Hero: React.FC = () => {
         {/* Clear CTAs - Mobile optimized */}
         <div className="flex flex-col sm:flex-row gap-4 md:gap-6 items-center justify-center">
           <a
-            href="https://rewards.vegansushilv.com/book/daikon"
+            href="https://tables.toasttab.com/restaurants/95c14348-a3ae-4de8-a7b2-15c5d41b0e11/findTime"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto bg-secondary-coral hover:bg-secondary-coral-dark text-white font-body font-semibold px-8 md:px-10 py-3 md:py-4 rounded-full text-base md:text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"

@@ -166,7 +166,7 @@ const Locations: React.FC = () => {
                 {/* Reservation Button */}
                 <div className="mt-6">
                   <a
-                    href="https://rewards.vegansushilv.com/book/daikon"
+                    href="https://tables.toasttab.com/restaurants/95c14348-a3ae-4de8-a7b2-15c5d41b0e11/findTime"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block w-full text-center bg-secondary-coral hover:bg-secondary-coral-dark text-white font-body font-semibold px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105"

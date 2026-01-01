@@ -264,7 +264,7 @@ const MemberRewards: React.FC = () => {
                 <strong>Phone:</strong> <a href="tel:7027493283" className="text-secondary-coral hover:underline">(702) 749-3283</a>
               </p>
               <a
-                href="https://rewards.vegansushilv.com/book/daikon"
+                href="https://tables.toasttab.com/restaurants/95c14348-a3ae-4de8-a7b2-15c5d41b0e11/findTime"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-primary-green hover:bg-opacity-90 text-white font-body font-semibold px-8 py-3 rounded-lg transition-all duration-300 shadow-md"
@@ -359,7 +359,7 @@ const MemberRewards: React.FC = () => {
               Join Rewards Program
             </a>
             <a
-              href="https://rewards.vegansushilv.com/book/daikon"
+              href="https://tables.toasttab.com/restaurants/95c14348-a3ae-4de8-a7b2-15c5d41b0e11/findTime"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-secondary-coral hover:bg-secondary-coral-dark text-white font-body font-semibold px-10 py-4 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg"

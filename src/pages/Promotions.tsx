@@ -94,7 +94,7 @@ const Promotions: React.FC = () => {
             ) : null}
             {promotion.locations.includes('daikon') || promotion.locations.includes('both') ? (
               <a
-                href="https://rewards.vegansushilv.com/book/daikon"
+                href="https://tables.toasttab.com/restaurants/95c14348-a3ae-4de8-a7b2-15c5d41b0e11/findTime"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-primary-green hover:bg-opacity-90 text-white font-body font-semibold px-8 py-3 rounded-lg transition-all duration-300 text-center"

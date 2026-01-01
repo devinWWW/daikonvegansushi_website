@@ -132,7 +132,7 @@ const MenuHighlights: React.FC = () => {
               Order Online
             </a>
             <a
-              href="https://rewards.vegansushilv.com/book/daikon"
+              href="https://tables.toasttab.com/restaurants/95c14348-a3ae-4de8-a7b2-15c5d41b0e11/findTime"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block font-body font-semibold px-10 py-4 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg bg-primary-green text-white hover:bg-opacity-90"

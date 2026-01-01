@@ -380,7 +380,7 @@ const handleShare = (_platform: string) => {
         </p>
         <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center' }}>
           <a
-            href="https://rewards.vegansushilv.com/book/daikon"
+            href="https://tables.toasttab.com/restaurants/95c14348-a3ae-4de8-a7b2-15c5d41b0e11/findTime"
             className="blog-cta-button"
             target="_blank"
             rel="noopener noreferrer"
