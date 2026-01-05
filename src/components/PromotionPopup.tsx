@@ -30,11 +30,11 @@ const PromotionPopup: React.FC = () => {
   const handleDismiss = () => {
     setIsVisible(false);
     setIsDismissed(true);
-    // Remember dismissal for 24 hours
+    // Remember dismissal for 2 hours
     localStorage.setItem('promotion-popup-dismissed', 'true');
     setTimeout(() => {
       localStorage.removeItem('promotion-popup-dismissed');
-    }, 24 * 60 * 60 * 1000); // 24 hours
+    }, 2 * 60 * 60 * 1000); // 2 hours
   };
 
   const handleViewPromotions = () => {
@@ -139,7 +139,7 @@ const PromotionPopup: React.FC = () => {
               </Link>
 
               <a
-                href="https://rewards.vegansushilv.com/scan"
+                href="https://www.toasttab.com/daikon-vegan-sushi-more/rewardsSignup"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={handleDismiss}
