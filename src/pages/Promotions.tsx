@@ -84,7 +84,7 @@ const Promotions: React.FC = () => {
             </Link>
             {promotion.locations.includes('basil') || promotion.locations.includes('both') ? (
               <a
-                href="https://rewards.vegansushilv.com/book/basil"
+                href="https://tables.toasttab.com/restaurants/a4a4b733-46d7-4ab4-875d-fbcedafc13ca/findTime"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-primary-green hover:bg-opacity-90 text-white font-body font-semibold px-8 py-3 rounded-lg transition-all duration-300 text-center"

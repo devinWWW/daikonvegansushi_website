@@ -98,7 +98,7 @@ const Accessibility: React.FC = () => {
               </p>
               <ul className="list-disc list-inside text-gray-700 font-body mb-4 space-y-2">
                 <li><strong>Online Ordering:</strong> Toast (www.toasttab.com)</li>
-                <li><strong>Reservations:</strong> Rewards system (rewards.vegansushilv.com)</li>
+                <li><strong>Reservations:</strong> Toast (https://www.toasttab.com/daikon-vegan-sushi-more/rewardsSignup)</li>
                 <li><strong>Delivery:</strong> DoorDash and Uber Eats</li>
               </ul>
               <p className="text-gray-700 font-body leading-relaxed mb-4">
