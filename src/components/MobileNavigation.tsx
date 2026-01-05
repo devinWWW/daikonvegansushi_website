@@ -45,7 +45,7 @@ const MobileNavigation: React.FC = () => {
     },
     {
       name: 'Rewards',
-      path: 'https://www.toasttab.com/daikon-vegan-sushi-more/rewardsSignup/',
+      path: 'https://www.toasttab.com/daikon-vegan-sushi-more/rewardsSignup',
       external: true,
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
