@@ -13,12 +13,12 @@ const blogPosts = [
     publishedDate: 'October 15, 2025',
   },
   {
-    title: 'Eater Vegas Featured Daikon Vegan Sushi & More — What They Reported',
+    title: 'Eater Vegas Featured Daikon Vegan Sushi — What They Reported',
     excerpt:
       'A summary of Eater Vegas coverage from December 2020 highlighting Daikon’s opening, plant-based sushi menu, and Chef Mindy Lim’s background.',
     to: '/blog/eater-vegas-daikon-feature',
     image: '/daikon_eater_blog.webp',
-    imageAlt: 'Daikon Vegan Sushi & More featured by Eater Vegas',
+    imageAlt: 'Daikon Vegan Sushi featured by Eater Vegas',
     readTime: '6 min read',
     publishedDate: 'January 5, 2026',
   },

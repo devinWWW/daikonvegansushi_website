@@ -8,11 +8,11 @@ const EaterVegasDaikonFeature: React.FC = () => {
 
   return (
     <BlogPost
-      title="Eater Vegas Featured Daikon Vegan Sushi & More — What They Reported"
+      title="Eater Vegas Featured Daikon Vegan Sushi — What They Reported"
       publishedDate="2026-01-05T12:00:00-08:00"
       readTime="6 min read"
       featuredImage="/daikon_eater_blog.webp"
-      featuredImageAlt="Daikon Vegan Sushi & More featured by Eater Vegas"
+      featuredImageAlt="Daikon Vegan Sushi featured by Eater Vegas"
       url="/blog/eater-vegas-daikon-feature"
     >
       {/* SOURCE NOTICE */}
@@ -45,7 +45,7 @@ const EaterVegasDaikonFeature: React.FC = () => {
 
       <img
         src="/daikon_eater_blog.webp"
-        alt="Daikon Vegan Sushi & More exterior and dishes"
+        alt="Daikon Vegan Sushi exterior and dishes"
         width="800"
         height="600"
         loading="lazy"
