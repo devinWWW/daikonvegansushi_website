@@ -166,14 +166,14 @@ const Locations: React.FC = () => {
                 {/* Reservation Button */}
                 <div className="mt-6">
                   {location.name === "Basil Vegan Thai & Sushi" ? (
-                    <button
-                      type="button"
-                      disabled
-                      title="Reservations temporarily unavailable"
-                      className="block w-full text-center bg-secondary-coral text-white font-body font-semibold px-6 py-3 rounded-lg transition-all duration-300 opacity-60 cursor-not-allowed"
-                    >
-                      Reservations Unavailable
-                    </button>
+                    <a
+                    href="https://tables.toasttab.com/restaurants/a4a4b733-46d7-4ab4-875d-fbcedafc13ca/findTime"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-full text-center bg-secondary-coral hover:bg-secondary-coral-dark text-white font-body font-semibold px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105"
+                  >
+                    Make a Reservation
+                  </a>
                   ) : (
                     <a
                       href="https://tables.toasttab.com/restaurants/95c14348-a3ae-4de8-a7b2-15c5d41b0e11/findTime"
