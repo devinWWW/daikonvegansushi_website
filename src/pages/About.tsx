@@ -1,6 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState, Suspense, lazy } from 'react';
 import { Link } from 'react-router-dom';
 import OptimizedImage from '../components/OptimizedImage';
+
+const HeroGallery = lazy(() => import('../components/HeroGallery'));
+
+const SectionFallback: React.FC<{ label: string; minHeight?: number }> = ({ label, minHeight = 200 }) => (
+  <div
+    className="flex items-center justify-center text-primary-green/80 font-body text-sm"
+    style={{ minHeight }}
+    role="status"
+    aria-live="polite"
+  >
+    Loading {label}…
+  </div>
+);
+
 
 const About: React.FC = () => {
   const [isVideoVisible, setIsVideoVisible] = useState(false);
@@ -364,6 +378,15 @@ const About: React.FC = () => {
             </Link>
           </div>
         </div>
+
+        {/* Hero Gallery at bottom */}
+        <div className="mt-12">
+          <Suspense fallback={<SectionFallback label="gallery" minHeight={450} />}>
+            <HeroGallery />
+          </Suspense>
+        </div>
+
+
       </div>
     </div>
   );
