@@ -52,7 +52,6 @@ function App() {
               <Route path="/blog/ultimate-guide-vegan-sushi-las-vegas" element={<VeganSushiGuide />} />
               <Route path="/blog/vegan-ramen-las-vegas" element={<VeganRamenGuide />} />
               <Route path="/blog/mindy-lim-bold-journey-interview" element={<BoldJourneyInterview />} />
-              <Route path="/blog/eater-vegas-daikon-feature" element={<EaterVegasDaikonFeature />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/terms-of-service" element={<TermsOfService />} />
               <Route path="/accessibility" element={<Accessibility />} />
