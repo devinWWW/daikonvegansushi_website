@@ -52,7 +52,7 @@ const About: React.FC = () => {
                     playsInline
                     preload="metadata"
                     className="w-full h-full object-cover"
-                    poster="/chef-mindy-new.jpg"
+                    poster="/new-story-poster.jpg"
                     onCanPlay={() => setIsVideoReady(true)}
                     loading="lazy"
                   >
@@ -68,7 +68,7 @@ const About: React.FC = () => {
                   aria-label="Play Chef Mindy Lim's story video"
                 >
                   <OptimizedImage
-                    src="/chef-mindy-new.jpg"
+                    src="/new-story-poster.jpg"
                     alt="Chef Mindy Lim smiling in the kitchen"
                     className="w-full h-full object-cover"
                     loading="lazy"
