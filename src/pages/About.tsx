@@ -56,7 +56,7 @@ const About: React.FC = () => {
                     onCanPlay={() => setIsVideoReady(true)}
                     loading="lazy"
                   >
-                    <source src="/storyu-of-chef-mindy-lim.mp4" type="video/mp4" />
+                    <source src="/new-story.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
                 </>
