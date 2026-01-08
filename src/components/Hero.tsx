@@ -185,9 +185,9 @@ const Hero: React.FC = () => {
         </h1>
 
         {/* Subheadline - Responsive sizing */}
-        <h2 className="text-lg sm:text-xl md:text-2xl font-body text-white mb-3 md:mb-4 max-w-2xl mx-auto leading-relaxed">
-          Save the Sea, Eat Vegan Sushi
-        </h2>
+        <h2 className="text-xl sm:text-2xl md:text-[28px] font-body text-white mb-3 md:mb-4 max-w-2xl mx-auto leading-relaxed">
+        Save the Sea, Eat Vegan Sushi
+      </h2>
         
         {/* Supporting Description - Responsive sizing */}
         <p className="text-base sm:text-lg font-body text-white mb-8 md:mb-12 max-w-2xl mx-auto leading-relaxed opacity-90">
