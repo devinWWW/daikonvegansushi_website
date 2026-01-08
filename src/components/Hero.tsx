@@ -202,7 +202,7 @@ const Hero: React.FC = () => {
             rel="noopener noreferrer"
             className="w-full sm:w-auto bg-secondary-coral hover:bg-secondary-coral-dark text-white font-body font-semibold px-8 md:px-10 py-3 md:py-4 rounded-full text-base md:text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
           >
-            Make a Reservation
+            Make a Reservation Today!
           </a>
           <a
             href="https://order.toasttab.com/online/daikon-vegan-sushi-more"
@@ -210,7 +210,7 @@ const Hero: React.FC = () => {
             rel="noopener noreferrer"
             className="w-full sm:w-auto border-2 border-white text-white hover:bg-white hover:text-primary-green font-body font-semibold px-8 md:px-10 py-3 md:py-4 rounded-full text-base md:text-lg transition-all duration-300 transform hover:scale-105"
           >
-            View Menu
+            Order Now
           </a>
         </div>
       </div>
