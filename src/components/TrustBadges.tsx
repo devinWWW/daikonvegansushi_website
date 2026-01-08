@@ -12,7 +12,7 @@ const TrustBadges: React.FC = () => {
     {
       src: '/logos/peta-logo.svg',
       alt: 'PETA - Top 10 Vegan Sushi 2024',
-      href: 'https://www.peta.org/living/food/vegan-sushi-rolls/'
+      href: 'https://www.peta.org/features/top-10-vegan-sushi-rolls-2024/'
     },
     {
       src: '/logos/daikon-best-2025.png',
@@ -47,7 +47,7 @@ const TrustBadges: React.FC = () => {
     {
       src: '/logos/cropped-BoldJourney-logo.png',
       alt: 'Bold Journey Magazine Feature',
-      href: '/blog/bold-journey-interview'
+      href: '/blog/mindy-lim-bold-journey-interview'
     }
   ];
 

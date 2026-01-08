@@ -143,7 +143,7 @@ const Story: React.FC = () => {
 
             {/* Award Logos */}
             <div className="mt-6 flex flex-wrap items-center justify-center md:justify-start gap-4">
-              <a href="https://www.peta.org/living/food/vegan-sushi-rolls/" target="_blank" rel="noopener noreferrer" aria-label="PETA Award">
+              <a href="https://www.peta.org/features/top-10-vegan-sushi-rolls-2024/" target="_blank" rel="noopener noreferrer" aria-label="PETA Award">
                 <img src="/logos/peta-logo.svg" alt="PETA" className="h-10 sm:h-12 w-auto opacity-70 hover:opacity-100 transition-opacity" loading="lazy" decoding="async" />
               </a>
               <a href="https://www.restaurantji.com/nv/las-vegas/daikon-vegan-sushi-and-more-/" target="_blank" rel="noopener noreferrer" aria-label="Restaurantji Recommends">

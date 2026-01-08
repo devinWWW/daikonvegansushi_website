@@ -127,7 +127,7 @@ const About: React.FC = () => {
                 <p>
                   Her dedication has earned multiple recognitions: the{' '}
                   <a
-                    href="https://www.peta.org/living/food/vegan-sushi-rolls/"
+                    href="https://www.peta.org/features/top-10-vegan-sushi-rolls-2024/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary-green hover:text-secondary-coral underline font-semibold transition-colors"
@@ -250,7 +250,7 @@ const About: React.FC = () => {
             {/* Awards Grid */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
               <a
-                href="https://www.peta.org/living/food/vegan-sushi-rolls/"
+                href="https://www.peta.org/features/top-10-vegan-sushi-rolls-2024/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white rounded-xl p-4 text-center shadow-md hover:shadow-lg transition-shadow"

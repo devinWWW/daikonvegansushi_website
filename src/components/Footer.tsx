@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
               </p>
               <div className="space-y-2">
                 <a
-                  href="https://www.peta.org/living/food/vegan-sushi-rolls/"
+                  href="https://www.peta.org/features/top-10-vegan-sushi-rolls-2024/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm font-body text-neutral-cream text-opacity-80 flex items-center hover:text-white transition-colors"
@@ -312,7 +312,7 @@ const Footer: React.FC = () => {
           {/* Logo Cloud Row */}
           <div className="border-t border-neutral-cream border-opacity-20 pt-8 pb-6">
             <div className="flex flex-wrap justify-center items-center gap-6 md:gap-10">
-              <a href="https://www.peta.org/living/food/vegan-sushi-rolls/" target="_blank" rel="noopener noreferrer" aria-label="PETA" className="opacity-60 hover:opacity-100 transition-opacity">
+              <a href="https://www.peta.org/features/top-10-vegan-sushi-rolls-2024/" target="_blank" rel="noopener noreferrer" aria-label="PETA" className="opacity-60 hover:opacity-100 transition-opacity">
                 <img src="/logos/peta-logo.svg" alt="PETA" className="h-6 md:h-8 w-auto " loading="lazy" />
               </a>
               <a href="https://www.restaurantji.com/nv/las-vegas/daikon-vegan-sushi-and-more-/" target="_blank" rel="noopener noreferrer" aria-label="Restaurantji" className="opacity-60 hover:opacity-100 transition-opacity">
@@ -373,7 +373,7 @@ const Footer: React.FC = () => {
             <div className="mt-4 pt-4 border-t border-neutral-cream border-opacity-10 text-center">
               <p className="text-xs text-neutral-cream text-opacity-60 font-body">
                 Serving Las Vegas with award-winning vegan Japanese cuisine since 2020 •
-                <a href="https://www.peta.org/living/food/vegan-sushi-rolls/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">PETA 2024 Top 10</a>
+                <a href="https://www.peta.org/features/top-10-vegan-sushi-rolls-2024/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">PETA 2024 Top 10</a>
                 {' '}•{' '}
                 <a href="https://www.restaurantji.com/nv/las-vegas/daikon-vegan-sushi-and-more-/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Restaurantji Recommended 2025</a>
                 {' '}• 4.9★ on{' '}
