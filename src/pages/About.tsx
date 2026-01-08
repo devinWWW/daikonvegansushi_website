@@ -74,7 +74,7 @@ const About: React.FC = () => {
                     loading="lazy"
                     decoding="async"
                   />
-                  <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+                  <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
                     <span className="w-16 h-16 md:w-20 md:h-20 bg-white/80 text-primary-green rounded-full flex items-center justify-center shadow-lg">
                       <svg
                         className="w-6 h-6 md:w-8 md:h-8"
