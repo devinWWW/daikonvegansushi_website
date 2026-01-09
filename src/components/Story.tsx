@@ -31,7 +31,7 @@ const Story: React.FC = () => {
     <section ref={sectionRef} className="py-16 md:py-20 px-4 md:px-8 lg:px-16 bg-neutral-cream">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
-          {/* Image - Mobile Optimized */}
+          {/* NEW Video + (Image Commented out) - Mobile Optimized */}
           <div
             className={`transition-all duration-1000 ${
               isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
@@ -42,6 +42,7 @@ const Story: React.FC = () => {
             }}
           >
             <div className="rounded-lg overflow-hidden shadow-2xl">
+              {/*
               <img
                 src="/chef-mindy-cover.webp"
                 alt="Chef Mindy Lim"
@@ -49,6 +50,19 @@ const Story: React.FC = () => {
                 loading="lazy"
                 decoding="async"
               />
+              */}
+              <div className="relative aspect-video bg-black/20">
+                <video
+                  controls
+                  playsInline
+                  preload="metadata"
+                  className="w-full h-full object-cover"
+                  poster="/chef-mindy-cover.webp"
+                >
+                  <source src="/new-story.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
             </div>
           </div>
 

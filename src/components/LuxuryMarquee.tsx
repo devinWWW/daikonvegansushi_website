@@ -2,10 +2,7 @@ import React from 'react';
 
 const LuxuryMarquee: React.FC = () => {
   const marqueeItems = [
-    "🦃 Thanksgiving Vegan Feast $45 - Set Menu Available Now",
-    "🎁 Holiday Gift Cards - Get Up to $20 Bonus Value",
-    "⭐ Join Rewards - FREE Thai Iced Tea + Golden State Roll",
-    "🥥 FREE CocoBanana Smoothie with $40+ Uber Eats Order",
+
     "🏆 PETA Award-Winning Yellow Magic Roll",
     "🌟 Premium Plant-Based Japanese Cuisine",
     "💎 Member Rewards Program - Sign Up Today",
@@ -13,6 +10,13 @@ const LuxuryMarquee: React.FC = () => {
     "💫 Chef Mindy's Signature Creations",
     "🍣 Two Locations - Daikon & Basil"
   ];
+
+  /* Inactive Marquee Items:
+    "🦃 Thanksgiving Vegan Feast $45 - Set Menu Available Now",
+    "🎁 Holiday Gift Cards - Get Up to $20 Bonus Value",
+    "⭐ Join Rewards - FREE Thai Iced Tea + Golden State Roll",
+    "🥥 FREE CocoBanana Smoothie with $40+ Uber Eats Order",
+  */
 
   return (
     <div className="luxury-marquee relative overflow-hidden bg-gradient-to-r from-primary-green via-secondary-coral to-primary-green py-3">
