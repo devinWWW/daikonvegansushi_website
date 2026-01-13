@@ -195,13 +195,14 @@ const About: React.FC = () => {
             </p>
           </div>
 
-          {/* Core Values Grid */}
+                    {/* Core Values Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
             {/* Respect */}
             <div className="text-center">
               <div className="w-20 h-20 bg-primary-green rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h8M12 8v8M7 21h10a2 2 0 002-2v-6a2 2 0 00-2-2H7a2 2 0 00-2 2v6a2 2 0 002 2zM9 11V7a3 3 0 016 0v4" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16.5 10.5V7.875a4.5 4.5 0 10-9 0V10.5" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6.75 10.5h10.5A1.5 1.5 0 0118.75 12v7.5A1.5 1.5 0 0117.25 21H6.75a1.5 1.5 0 01-1.5-1.5V12a1.5 1.5 0 011.5-1.5z" />
                 </svg>
               </div>
               <h3 className="text-xl font-heading font-semibold text-primary-green mb-3">
@@ -216,8 +217,8 @@ const About: React.FC = () => {
             <div className="text-center">
               <div className="w-20 h-20 bg-primary-green rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3l7 4v6c0 5-3 8-7 9-4-1-7-4-7-9V7l7-4z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3l7.5 4.5v6c0 5.25-3.75 8.25-7.5 9-3.75-.75-7.5-3.75-7.5-9v-6L12 3z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.5 12.5l1.75 1.75L15.5 10" />
                 </svg>
               </div>
               <h3 className="text-xl font-heading font-semibold text-primary-green mb-3">
@@ -232,8 +233,8 @@ const About: React.FC = () => {
             <div className="text-center">
               <div className="w-20 h-20 bg-primary-green rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 8h10M7 12h6m-6 4h8" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6a2 2 0 012-2h12a2 2 0 012 2v9a2 2 0 01-2 2H9l-5 3V6z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7.5 8.25h7.5M7.5 11.25h4.5" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.5 6.75A2.25 2.25 0 016.75 4.5h8.5A2.25 2.25 0 0117.5 6.75v6.5A2.25 2.25 0 0115.25 15.5H9l-4.5 3v-11.75z" />
                 </svg>
               </div>
               <h3 className="text-xl font-heading font-semibold text-primary-green mb-3">
@@ -249,9 +250,9 @@ const About: React.FC = () => {
               <div className="w-20 h-20 bg-primary-green rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v18" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 7h12" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7l-2 4a4 4 0 004 4h0a4 4 0 004-4l-2-4" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 7l-2 4a4 4 0 004 4h0a4 4 0 004-4l-2-4" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7.5 7.5h9" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7.5 7.5l-3 6h6l-3-6z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16.5 7.5l-3 6h6l-3-6z" />
                 </svg>
               </div>
               <h3 className="text-xl font-heading font-semibold text-primary-green mb-3">
