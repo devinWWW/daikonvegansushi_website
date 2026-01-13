@@ -364,39 +364,49 @@ const About: React.FC = () => {
         {/* Meet Our Team */}
         <div className="bg-white rounded-lg shadow-xl p-8 md:p-12 mb-12">
           <h2 className="text-3xl font-heading font-bold text-primary-green mb-6 text-center">
-            Meet our Team
+            Meet our Teams
           </h2>
           <p className="text-lg text-dark-green font-body text-center max-w-3xl mx-auto mb-10">
-            Behind every roll is a team that cares. warm service, steady teamwork, and pride in every detail.
+            Behind every roll is a growing team that cares. Warm service, steady teamwork, and pride in every detail.
           </p>
 
-          {/* Team Grid (HeroGallery-style, JPG only) */}
+          {/* Team Grid (optimized: WebP + fixed aspect + eager only for first 2) */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              { src: '/team/team-1.jpg', alt: 'Daikon Vegan Sushi team member' },
-              { src: '/team/team-2.jpg', alt: 'Daikon Vegan Sushi team member' },
-              { src: '/team/team-3.jpg', alt: 'Daikon Vegan Sushi team member' },
-              { src: '/team/team-4.jpg', alt: 'Daikon Vegan Sushi team member' },
+              { year: '2021' },
+              { year: '2022' },
+              { year: '2024' },
+              { year: '2025' },
             ].map((item, index) => (
-              <div
-                key={index}
-                className="relative overflow-hidden rounded-2xl shadow-md group transition-all duration-500 hover:shadow-lg hover:scale-105"
-                style={{ willChange: 'transform', backfaceVisibility: 'hidden' }}
-              >
-                <img
-                  src={item.src}
-                  alt={item.alt}
-                  loading="lazy"
-                  decoding="async"
-                  width={1200}
-                  height={900}
-                  className="w-full aspect-[4/3] object-cover transition-transform duration-700 group-hover:scale-110"
+              <div key={item.year} className="text-center">
+                <div
+                  className="relative overflow-hidden rounded-2xl shadow-md group transition-all duration-500 hover:shadow-lg hover:scale-105"
                   style={{ willChange: 'transform', backfaceVisibility: 'hidden' }}
-                />
+                >
+                  <picture>
+                    <source srcSet={`/team/${item.year}.webp`} type="image/webp" />
+                    <img
+                      src={`/team/${item.year}.jpg`}
+                      alt={`${item.year} Team`}
+                      loading={index < 2 ? 'eager' : 'lazy'}
+                      decoding="async"
+                      fetchpriority={index < 2 ? 'high' : 'auto'}
+                      width={640}
+                      height={480}
+                      className="w-full aspect-[4/3] object-cover transition-transform duration-700 group-hover:scale-110"
+                      style={{ willChange: 'transform', backfaceVisibility: 'hidden' }}
+                    />
+                  </picture>
+                </div>
+
+                <p className="mt-3 text-sm md:text-base font-heading font-semibold text-primary-green">
+                  {item.year} Team
+                </p>
               </div>
             ))}
           </div>
         </div>
+
 
 
         {/* Two Locations */}
