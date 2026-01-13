@@ -188,7 +188,7 @@ const About: React.FC = () => {
           {/* Core Values Grid */}
           <h2 className="text-3xl font-heading font-bold text-primary-green mb-6 text-center">
               Our Core Values
-            </h3>
+            </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
             {/* Respect */}
             <div className="text-center">
