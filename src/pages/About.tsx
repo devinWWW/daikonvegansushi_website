@@ -361,6 +361,75 @@ const About: React.FC = () => {
           </div>
         </div>
 
+        {/* Meet Our Team */}
+        <div className="bg-white rounded-lg shadow-xl p-8 md:p-12 mb-12">
+          <h2 className="text-3xl font-heading font-bold text-primary-green mb-6 text-center">
+            Meet our Team
+          </h2>
+          <p className="text-lg text-dark-green font-body text-center max-w-3xl mx-auto mb-10">
+            Behind every roll is a team that cares. warm service, steady teamwork, and pride in every detail.
+          </p>
+
+          {/* Team Grid (consistent aspect ratio like your example photo) */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+              <div className="w-full aspect-[4/3]">
+                <OptimizedImage
+                  src="/team/team-1.jpg"
+                  alt="Daikon Vegan Sushi team members inside restaraunt"
+                  className="w-full h-full object-cover"
+                  width={1200}
+                  height={900}
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+            </div>
+
+            <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+              <div className="w-full aspect-[4/3]">
+                <OptimizedImage
+                  src="/team/team-2.jpg"
+                  alt="Daikon Vegan Sushi team members in front of sign"
+                  className="w-full h-full object-cover"
+                  width={1200}
+                  height={900}
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+            </div>
+
+            <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+              <div className="w-full aspect-[4/3]">
+                <OptimizedImage
+                  src="/team/team-3.jpg"
+                  alt="Daikon Vegan Sushi team members sitting"
+                  className="w-full h-full object-cover"
+                  width={1200}
+                  height={900}
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+            </div>
+
+            <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+              <div className="w-full aspect-[4/3]">
+                <OptimizedImage
+                  src="/team/team-4.jpg"
+                  alt="Daikon Vegan Sushi team members outside"
+                  className="w-full h-full object-cover"
+                  width={1200}
+                  height={900}
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Two Locations */}
         <div className="bg-white rounded-lg shadow-xl p-8 md:p-12">
           <h2 className="text-3xl font-heading font-bold text-primary-green mb-8 text-center">
@@ -405,76 +474,6 @@ const About: React.FC = () => {
             </Link>
           </div>
         </div>
-
-        {/* Meet Our Team */}
-        <div className="bg-white rounded-lg shadow-xl p-8 md:p-12 mb-12">
-          <h2 className="text-3xl font-heading font-bold text-primary-green mb-6 text-center">
-            Meet our Team
-          </h2>
-          <p className="text-lg text-dark-green font-body text-center max-w-3xl mx-auto mb-10">
-            Behind every roll is a team that cares. warm service, steady teamwork, and pride in every detail.
-          </p>
-
-          {/* Team Grid (consistent aspect ratio like your example photo) */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
-              <div className="w-full aspect-[4/3]">
-                <OptimizedImage
-                  src="/team/team-1.jpg"
-                  alt="Daikon Vegan Sushi team member"
-                  className="w-full h-full object-cover"
-                  width={1200}
-                  height={900}
-                  loading="lazy"
-                  decoding="async"
-                />
-              </div>
-            </div>
-
-            <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
-              <div className="w-full aspect-[4/3]">
-                <OptimizedImage
-                  src="/team/team-2.jpg"
-                  alt="Daikon Vegan Sushi team member"
-                  className="w-full h-full object-cover"
-                  width={1200}
-                  height={900}
-                  loading="lazy"
-                  decoding="async"
-                />
-              </div>
-            </div>
-
-            <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
-              <div className="w-full aspect-[4/3]">
-                <OptimizedImage
-                  src="/team/team-3.jpg"
-                  alt="Daikon Vegan Sushi team member"
-                  className="w-full h-full object-cover"
-                  width={1200}
-                  height={900}
-                  loading="lazy"
-                  decoding="async"
-                />
-              </div>
-            </div>
-
-            <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
-              <div className="w-full aspect-[4/3]">
-                <OptimizedImage
-                  src="/team/team-4.jpg"
-                  alt="Daikon Vegan Sushi team member"
-                  className="w-full h-full object-cover"
-                  width={1200}
-                  height={900}
-                  loading="lazy"
-                  decoding="async"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-
 
         {/* Hero Gallery at bottom */}
         <div className="mt-12">
