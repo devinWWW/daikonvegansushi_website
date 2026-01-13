@@ -185,8 +185,18 @@ const About: React.FC = () => {
             </div>
           </div>
 
+          {/* Mission Section */}
+          <div className="border-t-2 border-primary-green border-opacity-20 pt-12 mb-12">
+            <h2 className="text-3xl font-heading font-bold text-primary-green mb-6 text-center">
+              Our Mission
+            </h2>
+            <p className="text-xl text-dark-green font-body leading-relaxed text-center max-w-4xl mx-auto mb-8">
+              Love what we do and make a difference. Exceptional service. Create memorable experiences.
+            </p>
+          </div>
+
           {/* Core Values Grid */}
-          <h2 className="text-3xl font-heading font-bold text-primary-green mb-6 text-center">
+          <h2 className="text-2xl font-heading font-bold text-primary-green mb-6 text-center">
               Our Core Values
             </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
@@ -255,16 +265,6 @@ const About: React.FC = () => {
                 Providing everyone the same chances to succeed. Actively ensuring all voices are heard and valued.
               </p>
             </div>
-          </div>
-
-          {/* Mission Section */}
-          <div className="border-t-2 border-primary-green border-opacity-20 pt-12 mb-12">
-            <h2 className="text-2xl font-heading font-bold text-primary-green mb-6 text-center">
-              Our Mission
-            </h2>
-            <p className="text-xl text-dark-green font-body leading-relaxed text-center max-w-4xl mx-auto mb-8">
-              Love what we do and make a difference. Exceptional service. Create memorable experiences.
-            </p>
           </div>
 
 
