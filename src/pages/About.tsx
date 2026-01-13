@@ -191,55 +191,78 @@ const About: React.FC = () => {
               Our Mission
             </h2>
             <p className="text-xl text-dark-green font-body leading-relaxed text-center max-w-4xl mx-auto mb-8">
-              We believe in "Peace on a Plate" — creating compassionate, sustainable cuisine that
-              nourishes the body, delights the senses, and honors all living beings.
+              Love what we do and make a difference. Exceptional service. Create memorable experiences.
             </p>
           </div>
 
-          {/* Values Grid */}
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
+          {/* Core Values Grid */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+            {/* Respect */}
             <div className="text-center">
               <div className="w-20 h-20 bg-primary-green rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h8M12 8v8M7 21h10a2 2 0 002-2v-6a2 2 0 00-2-2H7a2 2 0 00-2 2v6a2 2 0 002 2zM9 11V7a3 3 0 016 0v4" />
                 </svg>
               </div>
               <h3 className="text-xl font-heading font-semibold text-primary-green mb-3">
-                100% Plant-Based
+                Respect
               </h3>
               <p className="text-dark-green font-body">
-                Every dish is crafted entirely from plants, with no animal products whatsoever.
+                Always respect the guests, the team, and most importantly… yourself.
               </p>
             </div>
 
+            {/* Integrity */}
             <div className="text-center">
               <div className="w-20 h-20 bg-primary-green rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3l7 4v6c0 5-3 8-7 9-4-1-7-4-7-9V7l7-4z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4" />
                 </svg>
               </div>
               <h3 className="text-xl font-heading font-semibold text-primary-green mb-3">
-                Compassionate Cuisine
+                Integrity
               </h3>
               <p className="text-dark-green font-body">
-                We believe great food should never come at the expense of animals or the planet.
+                Doing the right thing even when no one is looking.
               </p>
             </div>
 
+            {/* Communication */}
             <div className="text-center">
               <div className="w-20 h-20 bg-primary-green rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+                <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 8h10M7 12h6m-6 4h8" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6a2 2 0 012-2h12a2 2 0 012 2v9a2 2 0 01-2 2H9l-5 3V6z" />
                 </svg>
               </div>
               <h3 className="text-xl font-heading font-semibold text-primary-green mb-3">
-                Culinary Excellence
+                Communication
               </h3>
               <p className="text-dark-green font-body">
-                Six years of recipe development ensures every dish is a masterpiece.
+                Be clear, concise, and open in our communication with our guests and each other.
+              </p>
+            </div>
+
+            {/* Equality */}
+            <div className="text-center">
+              <div className="w-20 h-20 bg-primary-green rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v18" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 7h12" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7l-2 4a4 4 0 004 4h0a4 4 0 004-4l-2-4" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 7l-2 4a4 4 0 004 4h0a4 4 0 004-4l-2-4" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-heading font-semibold text-primary-green mb-3">
+                Equality
+              </h3>
+              <p className="text-dark-green font-body">
+                Providing everyone the same chances to succeed. Actively ensuring all voices are heard and valued.
               </p>
             </div>
           </div>
+
 
           {/* Awards & Recognition Section */}
           <div className="bg-accent-gold bg-opacity-20 border-2 border-accent-gold rounded-lg p-8">
