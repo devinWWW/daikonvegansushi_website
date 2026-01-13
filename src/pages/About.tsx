@@ -370,65 +370,34 @@ const About: React.FC = () => {
             Behind every roll is a team that cares. warm service, steady teamwork, and pride in every detail.
           </p>
 
-          {/* Team Grid (consistent aspect ratio like your example photo) */}
+          {/* Team Grid (HeroGallery-style, JPG only) */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
-              <div className="w-full aspect-[4/3]">
-                <OptimizedImage
-                  src="/team/team-1.jpg"
-                  alt="Daikon Vegan Sushi team members inside restaraunt"
-                  className="w-full h-full object-cover"
-                  width={1200}
-                  height={900}
+            {[
+              { src: '/team/team-1.jpg', alt: 'Daikon Vegan Sushi team member' },
+              { src: '/team/team-2.jpg', alt: 'Daikon Vegan Sushi team member' },
+              { src: '/team/team-3.jpg', alt: 'Daikon Vegan Sushi team member' },
+              { src: '/team/team-4.jpg', alt: 'Daikon Vegan Sushi team member' },
+            ].map((item, index) => (
+              <div
+                key={index}
+                className="relative overflow-hidden rounded-2xl shadow-md group transition-all duration-500 hover:shadow-lg hover:scale-105"
+                style={{ willChange: 'transform', backfaceVisibility: 'hidden' }}
+              >
+                <img
+                  src={item.src}
+                  alt={item.alt}
                   loading="lazy"
                   decoding="async"
-                />
-              </div>
-            </div>
-
-            <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
-              <div className="w-full aspect-[4/3]">
-                <OptimizedImage
-                  src="/team/team-2.jpg"
-                  alt="Daikon Vegan Sushi team members in front of sign"
-                  className="w-full h-full object-cover"
                   width={1200}
                   height={900}
-                  loading="lazy"
-                  decoding="async"
+                  className="w-full aspect-[4/3] object-cover transition-transform duration-700 group-hover:scale-110"
+                  style={{ willChange: 'transform', backfaceVisibility: 'hidden' }}
                 />
               </div>
-            </div>
-
-            <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
-              <div className="w-full aspect-[4/3]">
-                <OptimizedImage
-                  src="/team/team-3.jpg"
-                  alt="Daikon Vegan Sushi team members sitting"
-                  className="w-full h-full object-cover"
-                  width={1200}
-                  height={900}
-                  loading="lazy"
-                  decoding="async"
-                />
-              </div>
-            </div>
-
-            <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
-              <div className="w-full aspect-[4/3]">
-                <OptimizedImage
-                  src="/team/team-4.jpg"
-                  alt="Daikon Vegan Sushi team members outside"
-                  className="w-full h-full object-cover"
-                  width={1200}
-                  height={900}
-                  loading="lazy"
-                  decoding="async"
-                />
-              </div>
-            </div>
+            ))}
           </div>
         </div>
+
 
         {/* Two Locations */}
         <div className="bg-white rounded-lg shadow-xl p-8 md:p-12">
